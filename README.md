@@ -1,48 +1,49 @@
 🎵 Spotify Clone - Dashboard
-Este projeto é uma simulação da interface de dashboard do Spotify, desenvolvida para praticar habilidades de front-end, manipulação de DOM e design responsivo.
+Status do Projeto: 🚀 Concluído / Em desenvolvimento
 
-🚀 Tecnologias Utilizadas
-O projeto foi construído utilizando o "trio fundamental" do desenvolvimento web, sem frameworks externos, para garantir o domínio das bases:
+Esta é uma simulação da interface desktop do Spotify, focada na experiência do usuário e na fidelidade visual. O objetivo principal foi consolidar conhecimentos em Front-end puro, explorando layouts complexos e interatividade sem o uso de bibliotecas externas.
 
-HTML5: Estruturação semântica dos componentes.
+📸 Demonstração Visual
 
-CSS3: Estilização avançada, utilizando Flexbox e CSS Grid para o layout.
+<div>
+  <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/fd06ae10-e2ff-4e28-8b9a-e91b392dbaf4" />
+</div>
 
-JavaScript (ES6+): Lógica para interatividade (ex: controle de play/pause, busca ou troca de abas).
+<br><br>
+🚀 Tecnologias e Ferramentas
+Para garantir o domínio dos fundamentos ("Vanilla"), o projeto foi construído com:
 
-🛠️ Funcionalidades
-Interface Fiel: Layout inspirado na versão desktop do Spotify.
+HTML5: Estruturação semântica para acessibilidade e SEO.
 
-Barra Lateral de Navegação: Menu fixo com links para Home, Buscar e Sua Biblioteca.
+CSS3: Layouts modernos com CSS Grid (estrutura principal) e Flexbox (alinhamento interno).
 
-Player de Música: Barra inferior com controles de reprodução e volume (funcional ou estético).
+JavaScript (ES6+): Manipulação dinâmica do DOM para interatividade em tempo real.
 
-Grid de Álbuns: Exibição dinâmica de cards de playlists e artistas.
+<br>
 
-Responsividade: Adaptação do layout para diferentes tamanhos de tela.
+🛠️ Funcionalidades Implementadas
+[x] Interface Pixel Perfect: Reprodução fiel do layout desktop.
 
-🎨 Demonstração Visual
-O que eu aprendi neste projeto:
-Manipulação de CSS Grid: Como criar o layout complexo onde o player fica fixo na base e a sidebar na lateral.
+[x] Navegação Lateral: Sidebar fixa com efeitos de hover e estados ativos.
 
-Tratamento de Imagens: Uso de propriedades como object-fit para manter a proporção das capas dos álbuns.
+[x] Player Interativo: Barra inferior funcional com controle de volume e barra de progresso.
 
-Eventos em JS: Captura de cliques para simular a navegação entre playlists.
+[x] Grid Dinâmico: Seção de álbuns e playlists organizada via Grid Responsivo.
 
-🔧 Como Rodar o Projeto
-Clone este repositório:
+[x] Responsividade: Totalmente adaptável para diferentes resoluções de tela.
 
-Bash
+<br>
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Navegue até a pasta do projeto:
+🧠 Aprendizados Relevantes
+Desenvolver este projeto trouxe desafios técnicos importantes que me permitiram evoluir em:
 
-Bash
+Arquitetura de Layout: Uso avançado de grid-template-areas para organizar a sidebar, o conteúdo principal e o player fixo.
 
-cd nome-do-repositorio
-Abra o arquivo index.html no seu navegador ou utilize a extensão Live Server do VS Code.
+Tratamento de Mídia: Aplicação de object-fit: cover e filtros CSS para garantir que as capas dos álbuns mantenham a qualidade estética.
 
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/fd06ae10-e2ff-4e28-8b9a-e91b392dbaf4" />
+Lógica de Eventos: Gerenciamento de múltiplos eventos de clique para simular a troca de telas e estados de reprodução.
+
+<br>
 
 📄 Licença
 Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
